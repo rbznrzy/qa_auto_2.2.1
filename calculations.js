@@ -1,22 +1,22 @@
-function increaseBalance(x, y) {
-  x = x + y;
-  return x;
+function increaseBalance(balance, income) {
+  increasingbalanceResult = balance + income;
+  return increasingbalanceResult;
 }
 
-function decreaseBalance(x) {
-x = x - y;
-return x;
+function decreaseBalance(balance, spends) {
+  decreasingbalanceResult = balance - spends;
+return decreasingbalanceResult;
 }
 
-function divideBalanceByAccounts(x, y) {
-  x = x / y;
-  return x;
-  console.log("x");
+function divideBalanceByAccounts(balance, accoutnCounts, strangeParameter) {
+  dividingBalanceResult = balance / accoutnCounts;
+  console.log(`${strangeParameter}`);
+  return dividingBalanceResult;
 }
 
-function getRestAfterDivision(x, y) {
-  x = x % y;
-  return x;
+function getRestAfterDivision(balance, restAfterNumber) {
+  restAfterDivisionResult = balance % restAfterNumber;
+  return restAfterDivisionResult;
 }
 
 console.log(increaseBalance(3000, 700));
